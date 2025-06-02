@@ -3,7 +3,7 @@
 const express = require('express');
 const cors = require('cors');
 const fs = require('fs');
-const Web3 = require('web3');
+const { Web3 } = require('web3');
 require('dotenv').config();
 
 const app = express();
