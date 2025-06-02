@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gestión de Saludo Blockchain</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🧑‍💻 Saludo en Blockchain</h1>
+    <div id="mensaje-actual" class="mensaje-actual">Cargando mensaje...</div>
+    <form id="formulario-mensaje" autocomplete="off">
+      <input
+        type="text"
+        id="nuevo-mensaje"
+        placeholder="Escribe un nuevo saludo..."
+        maxlength="100"
+        required
+      >
+      <button type="submit">Actualizar Mensaje</button>
+    </form>
+    <div id="estado" class="estado"></div>
+  </div>
+  <footer>
+    <p>Creado con 🪙 Blockchain, Node.js y Vanilla JS</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
